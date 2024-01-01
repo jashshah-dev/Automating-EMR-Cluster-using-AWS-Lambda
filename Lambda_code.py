@@ -2,7 +2,7 @@ import json
 import boto3
 
 # Initialize the EMR client using AWS credentials
-client = boto3.client('emr', region_name='us-west-2', aws_access_key_id='AKIATFYN2XYJEPC4NHXR', aws_secret_access_key='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')
+client = boto3.client('emr', region_name='us-west-2', aws_access_key_id='', aws_secret_access_key='')
 
 # Lambda function handler
 def lambda_handler(event, context):
